@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 15px;
+  min-height: 50px;
+  width: calc(100vw - 30px);
+  color: white
+}
+
+.header .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header .currencies {
+  display: flex;
+  justify-content: space-arround;
+}
+
+.header .currencies .currency {
+  margin: 0 10px;
+}
+
+.header .update-section span {
+  color: lightgrey;
+  font-size: 11px;
+  font-style: italic;
+  margin: 0 5px;
+}
+
+.header .update-section button {
+  align-items: center;
+  display: flex;
+  transition-duration: .3s;
+  color: white;
+  outline: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  padding: 5px 10px;
+  outline: unset;
+}
+
+.header .update-section button .loader {
+  margin: 0 5px;
+}
+
+.header .update-section button:hover,
+.header .update-section button:focus {
+  background-color: white;
+  color: black;
+}

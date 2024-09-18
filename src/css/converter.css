@@ -1,0 +1,30 @@
+.converter {
+  margin: 30px auto;
+}
+
+.converter .input-select {
+  margin: 10px
+}
+
+.converter .input-select > div {
+  margin-bottom: 5px;
+}
+
+.converter .input-select input {
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  border-color: black;
+  border-right-width: 0;
+  outline: unset;
+}
+
+.converter .input-select select {
+  outline: unset;
+  height: 34px;
+  padding: 5px;
+  border-width: 2px;
+  border-radius: 0px 5px 5px 0px;
+  border-color: black;
+  cursor: pointer;
+}
